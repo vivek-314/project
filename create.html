@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aapke Vichar - Blog Platform</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background: #0073e6;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+        }
+        .blog-post {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .blog-post:last-child {
+            border-bottom: none;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background: #0073e6;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+        button:hover {
+            background: #005bb5;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img src="aapke vichar logo.png" alt="Network issue" width="30" height="24" class="d-inline-block align-text-top">
+                  Aapke Vichar
+                </a>
+                
+              <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+      
+                  
+                    <a class="nav-link" href="create.html">Create</a>
+                  
+                  
+                      <a class="nav-link" href="contact.html">Contact</a>
+                  
+                      <a class="nav-link" href="About.html">About</a>
+                  
+                  </ul>
+              <!-- </div> -->
+            </div>
+          </nav>
+        <h1>Aapke Vichar</h1>
+        <p>Share your thoughts with the world!</p>
+    </header>
+    <div class="container">
+        <form id="blogForm">
+            <input type="text" id="title" placeholder="Enter blog title" required />
+            <textarea id="content" rows="5" placeholder="Write your blog content here..." required></textarea>
+            <button type="submit">Publish Blog</button>
+        </form>
+        <div id="blogContainer"></div>
+    </div>
+    <script src="create.js"></script>
+</body>
+</html>
+

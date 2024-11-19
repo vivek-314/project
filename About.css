@@ -1,0 +1,27 @@
+p1
+{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(63, 177, 99);
+    font-size: larger;
+}
+
+body
+{
+    background-color: rgb(223, 211, 211);
+    /* background-image: url("watermark\ bg.png"); */
+    
+} 
+
+/* body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    background: rgb(78, 102, 110);
+    background-repeat: no-repeat;
+    /* background: -webkit-linear-gradient(to left top, grey,rgb(138, 133, 133)); 
+    background: -moz-linear-gradient(to left top, grey,white);
+    background: -ms-linear-gradient(to left top, grey,white);
+     background: -o-linear-gradient(to left top,grey,white);
+    background: linear-gradient(to left top, grey,white); 
+  } */

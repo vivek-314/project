@@ -1,0 +1,89 @@
+/* p1
+{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(63, 177, 99);
+    font-size: larger;
+}
+
+body
+{
+    background-color: rgb(223, 211, 211);
+    /* background-image: url("watermark\ bg.png"); */
+    
+/* }
+input
+{
+    margin-left:1%;
+}
+textarea
+{
+    margin-left:1%;
+}
+
+body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    background: rgb(47, 169, 210);
+    background-repeat: no-repeat;
+    background: -webkit-linear-gradient(to left top, grey,whi);
+    background: -moz-linear-gradient(to left top, grey,white);
+    background: -ms-linear-gradient(to left top, grey,white);
+    background: -o-linear-gradient(to left top,grey,white);
+    background: linear-gradient(to left top, grey,white);
+  } */ 
+header{
+nav{
+    background-color: beige;
+    text-align: left;
+}}
+  .dropbtn {
+    background-color: #859dae;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+
+  
+
+
+  
